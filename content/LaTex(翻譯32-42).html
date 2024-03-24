@@ -1,0 +1,350 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>cmsimde_site</title>
+        <meta charset="utf-8">
+<meta property="head" content="H1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <!-- for Wink3 客製化關閉 -->
+        <!--
+        <link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css" />
+        <script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"></script>
+        -->
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPowerShell.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushMojo.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushRust.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container">
+                <div class="row align-items-center">
+                <h1>41123204</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">41123204</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">SMap</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='About.html'>About</a><li><a href='cmsimde.html'>cmsimde</a><li><a href='LaTex(翻譯32-42).html'>LaTex(翻譯32-42)</a><li><a href='Codespaces.html'>Codespaces</a><li><a href='Replit.html'>Replit</a><li><a href='Brython.html'>Brython</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+
+        </header>
+    <div id="tipue_search_content">cmsimde << <a href='cmsimde.html'>Previous</a> <a href='Codespaces.html'>Next</a> >> Codespaces<br /><h1>LaTex(翻譯32-42)</h1>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">\documentclass[12pt,a4paper]{report}  %紙張設定
+\usepackage{xeCJK}%中文字體模組
+\setCJKmainfont{TW-Kai} %設定中文字體
+\usepackage[top=3cm, bottom=2cm, left=3cm, right=3cm, a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\hoffset=-5mm %調整左右邊界
+\voffset=-8mm %調整上下邊界
+\usepackage{amsmath}
+\setlength{\parindent}{2em}
+\newfontfamily\sectionef{Times New Roman}
+
+%%%%正文%%%%%
+\begin{document}
+\hspace*{-1.5cm}\includegraphics[width=1\textwidth,height=0.5\textwidth]{1.png}\\[0.5cm]
+\begin{center}
+\textbf{圖14 部件A的等距視圖}\\[0.5cm]
+\end{center}
+\setlength{\parindent}{2em}選擇這種特定材料的主要原因是其韌性、良好的尺寸穩定性（冷卻後尺寸變化的抵抗力）、高衝擊抗性和表面硬度。最後，它還常見於3D列印絲材料，可用於擠出式3D列印機，這在原型製作過程中應該非常有用。\\[2cm]
+
+\textbf{4.1.2 部件B和C}\\
+
+\setlength{\parindent}{2em}B和C部件是蓋子，應該能夠卡入位，關閉系統。這些是非常簡單的部件，需要一定程度的彈性，以便能夠變形以確保無螺紋組裝。這兩個相同的部件將使用聚氨酯彈性體（TPU）製造，因為其具有彈性和出色的拉伸和撕裂強度。這種聚合物通常用於生產需要橡膠樣彈性的部件。TPU在高溫下表現良好，通常用於電動工具、電纜絕緣和體育用品。最後，TPU也可以作為3D列印機的絲材料，用於模擬中的原型製作。\\
+\newpage
+\hspace*{-1.5cm}\includegraphics[width=1\textwidth,height=0.5\textwidth]{2.png}\\[0.5cm]
+\begin{center}
+\textbf{ 圖15 零件B和C}
+\end{center}
+\textbf{ 4.1.3. 模具}\\
+
+理想情況下，所有模具應該由鋼材製成，以確保模具和產品質量的持久性。
+雖然如此，所選擇的注塑塑料對所有零件的壓力要求不那麼高，它們的形式也不那麼復雜，因此可以假設用精密CNC加工的鋁模具應該足以生產所述的零件。\\
+
+還假設所有模具都足夠簡單，可以使用3D列印進行原型製作。儘管這並非始終如此，但已確定對於本次模擬來說具有代表性。這些原型使用的材料類型是使用SLA 3D打印機固化的高溫樹脂。此外，模具將被視為在生產過程中需要開發的主要實體方面，因為它直接影響生產，同時可以在內部生產並跟踪其作為產品的情況。\\
+
+\textbf{4.2. 模擬過程中的分析}\\
+
+考慮到圖9中所示的圖表，以及在第3.1節中描述的PLM和MES成功整合的主要方面，此實驗旨在就表1中所描述的以下相關問題進行評論。
+\newpage
+\begin{center}
+\textbf{表1 需要回答的問題摘要}\\   
+\end{center}
+\begin{table}
+    \centering
+    \begin{tabular}{l|p{8cm}}
+        
+       類別 &amp; 問題\\[1cm]
+       \hline
+軟體如何處理項目  &amp; 所有產品生命周期的方面都有被代表嗎？每個方面的代表程度如何？ \\[1cm]\hline
+創建一個全新的產品有多容易 &amp; 產品如何描述？產品如何整合和參考相關文件？更改一個是否會影響另一個？\\[1cm]\hline
+創建全新的生產過程有多容易&amp;生產過程是如何描述的？生產過程如何整合和參考其所生產的產品？更改其中一個是否會影響另一個？ \\[1cm]\hline
+改善現有產品有多容易&amp;更新其元數據有多容易？
+確定更改的影響有多容易？
+軟體如何處理不同的產品修訂版本？ \\[1cm]\hline
+        
+改善現有的生產過程有多容易&amp;更新生產過程的元數據有多容易？
+確定更改的影響有多容易？
+軟體如何處理不同的生產過程修訂版本\\
+         &amp; 
+尋找生產數字有多容易？
+Odoo 如何生成性能數據？
+軟體如何呈現由升級引起的性能變化？\\[1cm]\hline
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}
+\newpage
+\begin{center}
+{\fontsize{24pt}{0pt}\textbf{第五章}}\\[18pt]
+{\fontsize{24pt}{0pt}\Large \textbf{Odoo軟體}}\\[1cm]
+\end{center}
+\textbf{5.1. Odoo軟體介紹}\\[0.5cm]
+\indent Odoo是一款商業管理軟體，與開源社區關係密切。最初作為開源ERP軟體開發，因其價格實惠、直觀且擅長整合和擴展而受到廣泛歡迎。隨著公司業務的迅速增長，其商業模式逐漸轉變，包括提供企業付費版本和在線服務。\\[0.5cm]
+\indent 如第2.2節所述，現代ERP系統通常是模塊化的，而在Odoo的情況下，這種模塊化特別明顯，因為社區開發的模塊和公司開發的高度集成的模塊提供了令人難以置信的擴展。正是這種可擴展性使得這款軟體對PLM+MES整合這一主題如此重要，因為在其製造模塊中存在用於PLM以及顯著的MES功能的模塊。\\[0.5cm]
+\indent 在本論文的範圍內，目標是利用這款軟體管理先前提到的虛構公司，並得出關於PLM和MES整合在該系統中已經存在的有效性的結論。\\[0.5cm]
+\textbf{5.1.1. 它是如何運作的}\\[0.5cm]
+\indent 該軟體可以安裝在大多數x86架構的電腦上，並支援多個操作系統，包括Windows和所有主要的Linux發行版。\\[0.5cm]
+\indent 理想情況下，Odoo軟體安裝在連接到本地區域網絡的電腦上，並啟動一個SQL數據庫，該數據庫包含企業生成的所有必要信息和文件（見圖16）。該電腦基本上作為服務器工作，其他位於網絡中的機器通過瀏覽器訪問它。這台電腦可以是專用服務器，也可以是正在使用的工作桌面，但重要的是要記住，它必須在軟體需要運行的整個時間內保持開機並連接著。\\[0.5cm]
+\newpage
+\hspace*{-1cm}\includegraphics[width=1\textwidth,height=0.75\textwidth]{3.png}\\[0.5cm]
+\begin{center}
+\textbf{圖16 Odoo配置A的功能圖}\\[0.5cm]
+\end{center}
+\hspace*{2em}另一個選擇是使用Odoo SA提供的托管服務（見圖17）。在這種情況下，系統將由他們托管，數據將存儲在他們的雲端。對於許多小型企業來說，這是一個很好的選擇，特別是如果他們特別喜歡與網站相關的模塊（用於構建和管理網站和電子商店）。然而，這取決於網絡，這在某些情況下可能會造成問題。\\[0.5cm]
+\newpage
+\hspace*{-1cm}\includegraphics[width=1\textwidth,height=0.75\textwidth]{4.png}\\[0.5cm]
+\begin{center}
+\textbf{圖17 Odoo配置B的功能圖}\\[0.5cm]
+\end{center}
+\hspace*{2em}用戶基本上通過圖形用戶界面（GUI）與系統互動，並使用它來根據每個用戶的需要訪問不同的模塊。這意味著可以對不同的用戶施加限制，以便對業務活動的不同方面進行控制，例如，會計人員將可以訪問會計模塊、銷售模塊和庫存模塊，但將被限制訪問製造模塊。這種限制確保了只有適當的員工才能對流程進行控制。\\[0.5cm]
+\newpage
+在該GUI中，不同的模塊顯示為應用程式圖標（見圖18），從一開始，公司就可以使用合理選擇的經過良好整合的應用程式，更不用說有一個充滿社區製作的模塊的龐大應用程式商店。\\[0.5cm]
+\hspace*{-1.25cm}\includegraphics[width=1.25\textwidth,height=0.5\textwidth]{5.png}\\[0.15cm]
+\begin{center}
+\textbf{圖18 Odoo在配置B中的GUI截圖}\\[0.25cm]    
+\end{center}
+\hspace*{2em}Odoo認為任何製造工作的責任都分散在不同的公司部門中，每個部門負責特定的文件類型，並使用特定的應用程式進行處理（見表2）。從PLM的角度來看，這非常積極，因為如(Saaksvuori和Immonen，2008)所述，關於用戶權限管理 - PLM系統用於定義信息訪問和維護權限。 PLM系統定義了誰可以創建新的信息或進行製作、檢查和接受變更，以及那些僅允許查看系統中的信息或文檔的人。當涉及將PLM與其他系統集成時，用戶權限管理通常是一個挑戰。\\[0.2cm]
+\begin{center}
+\textbf{表2 部門與文件/應用程式的相關性}\\[0.25cm]    
+\end{center}
+
+%\begin{table}
+    \centering
+    \begin{tabular}{l|8cm}
+         \textbf{\Large 部門}&amp;\textbf{\Large 文件/應用程式} \\[0.2cm] \hline
+         工程&amp;CAD和BOM \\[0.2cm] \hline
+         製造工程&amp;工藝路線、工作表、工作中心 \\[0.2cm] \hline
+         採購/採購&amp;採購訂單、報價請求 \\[0.2cm] \hline
+         庫存操作員&amp;收貨、條碼 \\[0.2cm] \hline
+         製造主管&amp;製造訂單、計劃 \\[0.2cm] \hline
+         製造操作員&amp;工作訂單 \\[0.2cm] \hline
+         庫存操作員&amp;交貨\\[0.2cm] \hline
+         品質&amp;警報、分析、控制點 \\[0.2cm] \hline
+    \end{tabular}
+    \label{tab:my_label}
+%\end{table}
+\newpage
+\begin{table}
+    \centering
+    \begin{tabular}{l|8cm}
+    \textbf{\Large 部門}&amp;\textbf{\Large 文件/應用程式} \\[0.2cm] \hline
+         工程&amp;工程變更訂單 \\[0.2cm] \hline
+         維護&amp;預防性/矯正性 \\[0.2cm] \hline
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}
+
+\raggedright\hspace*{2em}從Odoo的角度來看，在通常的製造過程中，首先是工程師使用CAD軟件設計產品。一旦完成，他們將創建一個物料清單（BOM），這是生產產品所需的零件或材料的清單。此時，重點轉移到製造過程本身。\\[0.5cm]
+\hspace*{2em}軟體對過程的視角主要集中在工藝路線、工作表和工作中心，這由製造工程團隊負責。工藝路線是產品在生產過程中所經歷的一系列步驟。工作表是針對製造操作員的指示，而工作中心則是生產活動進行的地方。Odoo認為這些是將工程師的計劃付諸實施所需的要求。\\[0.5cm]
+\hspace*{2em}採購部門將負責請求報價（RFQ）或採購訂單（PO）。庫存操作員根據這些PO負責收貨，通常在Odoo中使用條碼應用程式完成。正如本章的第一節所解釋的，Odoo主要是一個ERP系統，正是在這一點上可以注意到一些ERP中心化的特徵，比如對庫存和資源管理的關注。這將在接下來的章節中進一步分析，但值得指出的是，這些RFQ和PO被視為數據庫中的項目。\\[0.5cm]
+\hspace*{2em}只有在擁有設計、流程和所需材料時，Odoo才認為製造是可能的。然後，製造主管將創建一個製造訂單（MO），並通過工作訂單（WO）和工作中心管理製造操作員的計劃。然後，製造操作員可以按照工作訂單開始生產。產品生產完成後，它們將自動出現在庫存數據庫中，並由庫存部門負責包裝和交貨。\\[0.5cm]
+\hspace*{2em}Odoo認為品質團隊負責指定控制/檢查點，以及識別產品或生產中可能存在的問題。這些品質控制檢查點從MES的角度來看非常有趣，因為它代表著寶貴的生產數據，該數據在生產過程中實時收集，即在每個產品生產後，可以指定一個尺寸檢查點，加工人員將填寫尺寸以隨時間跟踪品質。\\[0.5cm]
+\hspace*{2em}如果存在設計問題或有改進的可能性，可以發出工程變更訂單（ECO）。這將回到製造工程團隊手中，並將專注於更新文件和BOM。ECO是Odoo跟踪系\\[0.5cm]
+\newpage
+\hspace*{2em}統內變更的核心。這在考慮PLM時非常重要，實際上也是Odoo名為PLM的應用程式的重點。該應用程式能夠實現到什麼程度，將在下一節中進行討論。\\[1cm]
+\textbf{5.1.3. Odoo的信息結構}\\[0.5cm]
+\hspace*{2em}每個模塊都專注於操作特定的面向對象的類，這些類在數據庫中保存元數據。這些是虛擬項目，負責將產品生命周期的各個方面虛擬化，正如（第3.1節）所述。不同類型的項目具有不同類型的賬戶，保存不同類型的數據，例如，產品項目代表特定產品，保存與其互動和使用相關的元數據，以及與其密切相關的其他可能項目的鏈接，如負責的用戶或製造所需的材料清單。Odoo通過其瀏覽器界面使所有這些信息都可以訪問和交互（見圖19和圖20）。為了保持一致，本文將特定項目表示（例如，螺栓）稱為“項目”，將項目類型（產品）稱為“項目類”。\\[0.5cm]
+\includegraphics[width=1\textwidth,height=0.6\textwidth]{6.png}\\[0.15cm]
+\begin{center}
+\textbf{圖19 Odoo界面示例，涉及項目}\\
+\end{center}
+\includegraphics[width=1\textwidth,height=0.6\textwidth]{7.png}\\[0.15cm]
+\begin{center}
+\textbf{圖20 由GUI顯示的特定項目及其元數據的示例}\\[1cm]
+\end{center}
+\hspace*{2em}在Odoo中，有幾種類型的項目類（一些保存了大量的元數據，一些保存了很少），它們之間有不同程度的關係和整合。由於本工作的範圍僅限於PLM和MES的功能，因此重點放在與它們相關的項目上。下面的章節將對Odoo製造過程的主要7個項目類進行簡要解釋，因為基本的理解有助於讀者跟隨模擬。這些在以下圖（圖21）中表示。其他與製造過程無關的項目將在模擬過程中介紹。\\
+\newpage
+\includegraphics[width=1\textwidth,height=1\textwidth]{8.png}\\[0.15cm]
+\begin{center}
+\textbf{圖21 產品X製造的簡化項目關係圖}\\
+\end{center}
+\textbf{5.1.3.1. 產品項目}\\[0.5cm]
+\hspace*{2em}每種材料、零件或產品都由一個PRODUCT類型的類別來描述，這個類別主要保存和管理在Odoo的庫存應用中。這意味著在系統中，產品的生產取決於其他產品的可用性，這些產品要麼是按原樣購買的，要麼是從其他產品中製造出來的（見圖22），即原材料也被視為產品，更具體地說，是購買的產品，然後包含在BOM中以製造其他產品。這被認為是主要的項目類別，因為它既是製造的來源，也是目標。\\
+\end{document}</pre>
+<pre class="brush:plain;auto-links:false;toolbar:false" contenteditable="false"></pre>
+<br />cmsimde << <a href='cmsimde.html'>Previous</a> <a href='Codespaces.html'>Next</a> >> Codespaces</div>
+
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        
