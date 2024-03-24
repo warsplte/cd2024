@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123204協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-24T06:03:22+08:00</updated><entry><title>2024 協同產品設計實習1~4週心得</title><link href="./2024-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T00:00:00+08:00</published><updated>2024-03-24T06:03:22+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-14:./2024-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123204協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-24T06:45:02+08:00</updated><entry><title>2024 協同產品設計實習第5週心得</title><link href="./2024-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T00:00:00+08:00</published><updated>2024-03-24T06:45:02+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-21:./2024-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
+
+
+&lt;h1&gt;第五週心得&lt;/h1&gt;
+&lt;p&gt;學習Latex語法，在&lt;a href="https://www.overleaf.com/"&gt;overleaf&lt;/a&gt; 網站上進行編輯，以下為語法&lt;/p&gt;
+&lt;p&gt;\documentclass[12pt,a4paper]{report} %紙張設定&lt;/p&gt;
+&lt;p&gt;\usepackage{xeCJK}%中文字體模組&lt;/p&gt;
+&lt;p&gt;\setCJKmainfont{TW-Kai} %設定中文字體&lt;/p&gt;
+&lt;p&gt;\usepackage[top=3cm, bottom=2cm, left=3cm, right=3cm, a4paper]{geometry} %命令引入 geometry宏包，並通過選項設置了頁面的上、下、左、右邊距以及紙張大小。&lt;/p&gt;
+&lt;p&gt;\usepackage{graphicx} %命令引入 graphicx宏包&lt;/p&gt;
+&lt;p&gt;\usepackage{textcomp} %命令引入 textcomp宏包&lt;/p&gt;
+&lt;p&gt;\hoffset=-5mm %調整左右邊界&lt;/p&gt;
+&lt;p&gt;\voffset=-8mm %調整上下邊界&lt;/p&gt;
+&lt;p&gt;\usepackage{amsmath} %命令引入 amsmath宏包&lt;/p&gt;
+&lt;p&gt;\setlength{\parindent}{2em} %將段落的縮進設置為 2em&lt;/p&gt;
+&lt;p&gt;\newfontfamily\sectionef{Times New Roman} %設置字體&lt;/p&gt;
+&lt;p&gt;\begin{document} 
+\end{document} %LaTeX 文檔的開始與結束&lt;/p&gt;
+&lt;p&gt;\begin{centor} 
+文字
+\end{centor} %文字置中&lt;/p&gt;
+&lt;p&gt;\newpage %下一頁&lt;/p&gt;
+&lt;p&gt;\textbf{文字} %文字變粗&lt;/p&gt;
+&lt;p&gt;\includegraphics[width=1\textwidth,height=0.5\textwidth]{圖片檔} %上傳圖片且width可改變寬度height可改變高度&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同產品設計實習1~4週心得</title><link href="./2024-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T00:00:00+08:00</published><updated>2024-03-24T06:03:22+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-14:./2024-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
 
 
