@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123204協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-24T06:45:02+08:00</updated><entry><title>2024 協同產品設計實習第5週心得</title><link href="./2024-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T00:00:00+08:00</published><updated>2024-03-24T06:45:02+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-21:./2024-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123204協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-28T07:53:17+08:00</updated><entry><title>2024 協同產品設計實習第5週心得</title><link href="./2024-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T00:00:00+08:00</published><updated>2024-03-28T07:46:56+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-21:./2024-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
 
 
 &lt;h1&gt;第五週心得&lt;/h1&gt;
-&lt;p&gt;學習Latex語法，在&lt;a href="https://www.overleaf.com/"&gt;overleaf&lt;/a&gt; 網站上進行編輯，以下為語法&lt;/p&gt;
+&lt;p&gt;學習LaTeX語法，在&lt;a href="https://www.overleaf.com/"&gt;overleaf&lt;/a&gt; 網站上進行編輯，以下為語法&lt;/p&gt;
 &lt;p&gt;\documentclass[12pt,a4paper]{report} %紙張設定&lt;/p&gt;
 &lt;p&gt;\usepackage{xeCJK}%中文字體模組&lt;/p&gt;
 &lt;p&gt;\setCJKmainfont{TW-Kai} %設定中文字體&lt;/p&gt;
@@ -23,7 +23,14 @@
 \end{centor} %文字置中&lt;/p&gt;
 &lt;p&gt;\newpage %下一頁&lt;/p&gt;
 &lt;p&gt;\textbf{文字} %文字變粗&lt;/p&gt;
-&lt;p&gt;\includegraphics[width=1\textwidth,height=0.5\textwidth]{圖片檔} %上傳圖片且width可改變寬度height可改變高度&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同產品設計實習1~4週心得</title><link href="./2024-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T00:00:00+08:00</published><updated>2024-03-24T06:03:22+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-14:./2024-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
+&lt;p&gt;\includegraphics[width=1\textwidth,height=0.5\textwidth]{圖片檔} %上傳圖片且width可改變寬度height可改變高度&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同產品設計實習第6週心得</title><link href="./2024-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T00:00:00+08:00</published><updated>2024-03-28T07:53:17+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-21:./2024-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
+
+
+&lt;h1&gt;第六周心得&lt;/h1&gt;
+&lt;p&gt;將[ODOO 參考資料][https://webthesis.biblio.polito.it/16429/1/tesi.pdf]中的第32到42翻譯完成，並使用LaTeX語法進行編輯，並學會了新的語法
+\usepackage{makecell} %命令引入 makecell宏包&lt;/p&gt;
+&lt;p&gt;\makecell[居中情況]{第一行內容\第二行內容\...} %這個指令能夠在表格內容太長，需要換行時使用，居中情況可鍵入[l]向左靠齊[c]居中對齊[r]向右靠齊&lt;/p&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同產品設計實習1~4週心得</title><link href="./2024-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T00:00:00+08:00</published><updated>2024-03-24T06:03:22+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-14:./2024-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
 
 
