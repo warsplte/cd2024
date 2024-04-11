@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123204協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-28T08:13:51+08:00</updated><entry><title>2024 協同產品設計實習第6週心得</title><link href="./2024-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T00:00:00+08:00</published><updated>2024-03-28T08:13:51+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-28:./2024-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第6週心得.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123204協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-11T07:04:26+08:00</updated><entry><title>2024 協同產品設計實習第6週心得-41123204</title><link href="./2024-w6-blog-tutorial-41123204.html" rel="alternate"></link><published>2024-03-28T00:00:00+08:00</published><updated>2024-04-11T07:04:26+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-28:./2024-w6-blog-tutorial-41123204.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第6週心得.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第6週心得.&lt;/p&gt;
 
 
 &lt;h1&gt;第六周心得&lt;/h1&gt;
 &lt;p&gt;將&lt;a href="[https://webthesis.biblio.polito.it/16429/1/tesi.pdf]"&gt;ODOO 參考資料&lt;/a&gt;中的第32到42翻譯完成，並使用LaTeX語法進行編輯，並學會了新的語法&lt;/p&gt;
 &lt;p&gt;\usepackage{makecell} %命令引入 makecell宏包&lt;/p&gt;
-&lt;p&gt;\makecell[居中情況]{第一行內容\第二行內容\...} %這個指令能夠在表格內容太長，需要換行時使用，居中情況可鍵入[l]向左靠齊[c]居中對齊[r]向右靠齊&lt;/p&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同產品設計實習第5週心得</title><link href="./2024-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T00:00:00+08:00</published><updated>2024-03-28T07:46:56+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-21:./2024-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
+&lt;p&gt;\makecell[居中情況]{第一行內容\第二行內容\...} %這個指令能夠在表格內容太長，需要換行時使用，居中情況可鍵入[l]向左靠齊[c]居中對齊[r]向右靠齊&lt;/p&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同產品設計實習第5週心得-41123204</title><link href="./2024-w5-blog-tutorial-41123204.html" rel="alternate"></link><published>2024-03-21T00:00:00+08:00</published><updated>2024-04-11T07:04:11+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-21:./2024-w5-blog-tutorial-41123204.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
 
 
@@ -30,7 +30,7 @@
 \end{centor} %文字置中&lt;/p&gt;
 &lt;p&gt;\newpage %下一頁&lt;/p&gt;
 &lt;p&gt;\textbf{文字} %文字變粗&lt;/p&gt;
-&lt;p&gt;\includegraphics[width=1\textwidth,height=0.5\textwidth]{圖片檔} %上傳圖片且width可改變寬度height可改變高度&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同產品設計實習1~4週心得</title><link href="./2024-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T00:00:00+08:00</published><updated>2024-03-24T06:03:22+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-14:./2024-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
+&lt;p&gt;\includegraphics[width=1\textwidth,height=0.5\textwidth]{圖片檔} %上傳圖片且width可改變寬度height可改變高度&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同產品設計實習1~4週心得-41123204</title><link href="./2024-w4-blog-tutorial-41123204.html" rel="alternate"></link><published>2024-03-14T00:00:00+08:00</published><updated>2024-04-11T07:03:58+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-14:./2024-w4-blog-tutorial-41123204.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
 
 
@@ -59,7 +59,7 @@ cd cd2024&lt;/p&gt;
 &lt;h1&gt;第三週心得&lt;/h1&gt;
 &lt;p&gt;將組員加入子模組&lt;/p&gt;
 &lt;h1&gt;第四周心得&lt;/h1&gt;
-&lt;p&gt;建出網站日誌&lt;/p&gt;</content><category term="w1~4"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-02-29T05:54:11+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+&lt;p&gt;建出網站日誌&lt;/p&gt;</content><category term="w1~4"></category><category term="網誌編寫"></category></entry><entry><title>41123204 W1</title><link href="./2024-Spring-w1-blog-tutorial-41123204.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-04-11T07:03:05+08:00</updated><author><name>Ting</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial-41123204.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
